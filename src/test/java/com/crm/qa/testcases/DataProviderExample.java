@@ -7,12 +7,12 @@ import com.crm.qa.util.TestUtil;
 
 public class DataProviderExample {
 
-	public static TestUtil testUtil;
-
-	@Test(priority = 1)
-	public void readDataParameterization() {
-		testUtil = new TestUtil();
-	}
+//	public static TestUtil testUtil;
+//
+//	@Test(priority = 1)
+//	public void readDataParameterization() {
+//		testUtil = new TestUtil();
+//	}
 
 
 	@DataProvider
@@ -25,7 +25,11 @@ public class DataProviderExample {
 	@Test(priority = 2, dataProvider="getCRMTestData")
 	public void validateCreateNewContact(String title, String firstName, String lastName, String company){
 
-		System.out.println(title);
+		System.out.println(title + "" + firstName + "" + lastName +"" + company);
+	
+	
+	
+	
 	}
 
 }
