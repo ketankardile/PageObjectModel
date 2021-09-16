@@ -10,6 +10,10 @@
 	<name>FreeCRMTest</name>
 	<url>http://maven.apache.org</url>
 
+
+<!--Your comment-->
+
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		 <maven.compiler.source>1.6</maven.compiler.source>
@@ -65,7 +69,11 @@
 			<artifactId>openxml4j</artifactId>
 			<version>1.0-beta</version>
 		</dependency>
-		
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.9</version>
+		</dependency>
 		
 
 		<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
@@ -81,7 +89,6 @@
 			<artifactId>commons-io</artifactId>
 			<version>2.6</version>
 		</dependency>
-
 
 	</dependencies>
 </project>

@@ -35,7 +35,7 @@ public class TestBase {
 	public TestBase(){
 		try {
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream("D:\\Eclipse_Project\\PageObjectModel\\src\\main\\java\\com\\crm\\qa\\config\\config.properties");
+			FileInputStream ip = new FileInputStream("D:\\Eclipse_Project\\PageObjectModelMain\\src\\main\\java\\com\\crm\\qa\\config\\config.properties");
 			prop.load(ip);
 			
 			
